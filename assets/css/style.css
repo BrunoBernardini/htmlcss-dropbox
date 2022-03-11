@@ -1,0 +1,29 @@
+/* Header */
+
+header{
+  height: 80px;
+  vertical-align: middle;
+}
+
+/* Jumbotron */
+
+.jumbotron{
+  padding-top: 106px;
+}
+
+.jumbotron .content{
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Main */
+
+main{
+  padding-top: 215px;
+}
+
+.plan.small{
+  width: calc((100% / 3) - 60px);
+  float: left;
+}

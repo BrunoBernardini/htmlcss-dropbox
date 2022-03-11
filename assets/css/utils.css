@@ -1,0 +1,46 @@
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 75%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.text-center{
+  text-align: center;
+}
+
+/* DEBUG */
+
+.debug{
+  background-color: rgba(255, 0, 0, .2);
+  border: 1px solid black;
+}
+
+.w50{
+  width: 50%;
+}
+
+.w60{
+  width: 60%;
+}
+
+.w40{
+  width: 40%;
+}
+
+.h100{
+  min-height: 100px;
+}
+
+.h300{
+  min-height: 300px;
+}
+
+.h500{
+  min-height: 500px;
+}
