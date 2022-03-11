@@ -23,7 +23,67 @@ main{
   padding-top: 215px;
 }
 
-.plan.small{
-  width: calc((100% / 3) - 60px);
-  float: left;
+/* Plans */
+
+.plans{
+  width: 100%;
+  margin-bottom: 150px;
+}
+
+.plan.third{
+  margin-bottom: 55px;
+}
+
+.plan.large{
+  width: 100%;
+}
+
+/* Partners */
+
+.partners{
+  width: 100%;
+  margin-bottom: 120px;
+}
+
+/* Operations */
+
+.operations img{
+  width: 100%;
+}
+
+.operation{
+  margin-bottom: 125px;
+}
+
+/* Sponsors */
+
+.sponsors aside{
+  width: 30%;
+}
+
+.sponsors aside .sponsor{
+  width: 50%;
+}
+
+.sponsors .text{
+  width: 40%;
+}
+
+/* Company */
+
+.company{
+  padding: 140px 0;
+}
+
+/* FAQs */
+
+.faqs{
+  padding: 140px 0;
+}
+
+/* Footer */
+
+footer{
+  background-color: black;
+  padding: 120px 10% 0 10%;
 }
