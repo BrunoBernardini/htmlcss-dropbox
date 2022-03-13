@@ -22,11 +22,16 @@ nav ul li > a:hover{
   text-decoration: underline;
 }
 
+.start-btn{
+  margin: 0 20px;
+  padding: 5px 19px;
+}
 
 /* Jumbotron */
 
 .jumbotron{
   padding-top: 80px;
+  height: 743px;
 }
 
 .jumbotron .content{
@@ -41,9 +46,22 @@ nav ul li > a:hover{
   margin-bottom: 42px;
 }
 
-.jumbotron .content p{
+.jumbotron .content aside{
   width: 30%;
-  margin: 0 4.5% 20px 0;
+  margin-right: 4.5%;
+}
+
+.jumbotron .content aside p{
+  margin-bottom: 29.5px;
+}
+
+.jumbotron .content .underbutton{
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.jumbotron .content aside i{
+  font-size: 2.5rem;
 }
 
 .jumbo-img{
@@ -52,6 +70,12 @@ nav ul li > a:hover{
 
 .jumbo-img img{
   width: 100%;
+}
+
+.jumbo-btn{
+  font-size: 16px;
+  padding: 8.5px 19px;
+  margin-bottom: 10px;
 }
 
 /* Main */
