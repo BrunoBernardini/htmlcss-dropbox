@@ -2,8 +2,27 @@
 
 header{
   height: 80px;
-  vertical-align: middle;
+  line-height: 80px;
 }
+
+.logo img{
+  margin: 26px 20px 0 20px;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav li a{
+  color: #323232;
+  font-weight: 500;
+}
+
+nav li a:hover{
+  text-decoration: underline;
+}
+
 
 /* Jumbotron */
 

@@ -30,6 +30,22 @@
   background-color: #b4d0e7;
 }
 
+/* Buttons */
+
+.btn{
+  display: inline-block;
+  background-color: #005ffa;
+  padding: 5px 19px;
+  line-height: 21px;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+
+.btn:hover{
+  background-color: #3b85fe;
+}
+
 /* DEBUG */
 
 .debug{
