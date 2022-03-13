@@ -14,12 +14,11 @@ nav ul li{
   margin: 0 20px;
 }
 
-nav li a{
+nav ul li > a{
   color: #323232;
-  font-weight: 500;
 }
 
-nav li a:hover{
+nav ul li > a:hover{
   text-decoration: underline;
 }
 
@@ -27,13 +26,32 @@ nav li a:hover{
 /* Jumbotron */
 
 .jumbotron{
-  padding-top: 106px;
+  padding-top: 80px;
 }
 
 .jumbotron .content{
-  width: 90%;
+  width: 70%;
   max-width: 1440px;
   margin: 0 auto;
+  text-align: left;
+}
+
+.jumbotron .content h1{
+  font-size: 4.82rem;
+  margin-bottom: 42px;
+}
+
+.jumbotron .content p{
+  width: 30%;
+  margin: 0 4.5% 20px 0;
+}
+
+.jumbo-img{
+  width: 64%;
+}
+
+.jumbo-img img{
+  width: 100%;
 }
 
 /* Main */
