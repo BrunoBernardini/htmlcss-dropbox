@@ -10,16 +10,42 @@ header{
 }
 
 nav ul li{
+  position: relative;
   display: inline-block;
   margin: 0 20px;
 }
 
-nav ul li > a{
+nav ul li a{
   color: #323232;
+  line-height: 76px;
+  display: inline-block;
 }
 
-nav ul li > a:hover{
-  text-decoration: underline;
+nav ul li a:hover{
+  border-bottom: 2px solid #323232;
+}
+
+.dropdown-menu{
+  display: none;
+  position: absolute;
+  left: -30px;
+  font-size: 14px;
+  line-height: 40px;
+  background-color: #fafbfb;
+  padding: 20px 0;
+  min-width: 230px;
+}
+
+nav ul li:hover .dropdown-menu{
+  display: block;
+}
+
+.dropdown-menu .menu-option{
+  padding-left: 35px;
+}
+
+.dropdown-menu .menu-option:hover{
+  background-color: #ebebeb;
 }
 
 .start-btn{
@@ -39,11 +65,6 @@ nav ul li > a:hover{
   max-width: 1440px;
   margin: 0 auto;
   text-align: left;
-}
-
-.jumbotron .content h1{
-  font-size: 4.82rem;
-  margin-bottom: 42px;
 }
 
 .jumbotron .content aside{
@@ -81,7 +102,7 @@ nav ul li > a:hover{
 /* Main */
 
 main{
-  padding-top: 215px;
+  padding-top: 198px;
 }
 
 /* Plans */
