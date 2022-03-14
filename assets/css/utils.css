@@ -10,8 +10,12 @@
   margin: 0 auto;
 }
 
-.third{
-  width: calc((100% / 3) - 60px);
+.third-column{
+  width: calc((100% / 3) - 40px);
+}
+
+.third-column.margin{
+  margin-right: 60px;
 }
 
 .text-center{
