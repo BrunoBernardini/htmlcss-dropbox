@@ -5,7 +5,7 @@
 }
 
 .container{
-  width: 75%;
+  width: 90%;
   max-width: 1080px;
   margin: 0 auto;
 }
@@ -50,9 +50,6 @@
   background-color: #3b85fe;
 }
 
-.btn.big{
-  
-}
 
 /* Circle */
 
@@ -76,6 +73,10 @@
   border: 1px solid black;
 }
 
+.w40{
+  width: 40%;
+}
+
 .w50{
   width: 50%;
 }
@@ -84,8 +85,8 @@
   width: 60%;
 }
 
-.w40{
-  width: 40%;
+.w100{
+  width: 100%;
 }
 
 .h100{
