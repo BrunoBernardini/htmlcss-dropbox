@@ -127,10 +127,12 @@ main{
 
 .plan{
   border: 1px solid lightgray;
+  min-height: 1060px;
+  font-size: 14px;
 }
 
 .plan.third-column{
-  margin-bottom: 55px;
+  margin-bottom: 50px;
 }
 
 .plan.large{
@@ -153,6 +155,7 @@ main{
 }
 
 .plan .price{
+  font-size: 16px;
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -160,13 +163,10 @@ main{
 .price::after{
   content: ' \20AC';
 }
+
 .plan .under-price{
   color: slategray;
-  margin-bottom: 49px;
-}
-
-.plan .under-price, .plan ul{
-  font-size: 14px;
+  margin-bottom: 50px;
 }
 
 .plan ul{
@@ -180,6 +180,29 @@ main{
 .plan ul li{
   margin-left: 18px;
   margin-bottom: 25px;
+}
+
+.plan .plan-btn, .plan .buy{
+  margin-bottom: 30px;
+}
+
+.plan .buy a{
+  color: #1a71ff;
+  text-decoration: underline;
+}
+
+.plan.third-column hr{
+  width: 50px;
+  border: none;
+  height: 1px;
+  background-color: lightgray;
+  margin-bottom: 40px;
+}
+
+.plan .mid-title{
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 20px;
 }
 
 /* Partners */
