@@ -127,12 +127,14 @@ main{
 
 .plan{
   border: 1px solid lightgray;
-  min-height: 1060px;
   font-size: 14px;
 }
 
+/* Plan card stretta (colonna) */
+
 .plan.third-column{
   margin-bottom: 50px;
+  min-height: 1060px;
 }
 
 .plan.large{
@@ -182,7 +184,7 @@ main{
   margin-bottom: 25px;
 }
 
-.plan .plan-btn, .plan .buy{
+.plan.third-column .plan-btn, .plan .buy{
   margin-bottom: 30px;
 }
 
@@ -203,6 +205,20 @@ main{
   font-weight: 700;
   font-size: 16px;
   margin-bottom: 20px;
+}
+
+/* Plan card grande */
+
+.plan.large .plan-btn{
+  width: 300px;
+}
+
+.plan.large h3{
+  display: inline-block;
+}
+
+.plan.large .mid-title, .plan.large p{
+  margin-bottom: 30px;
 }
 
 /* Partners */
