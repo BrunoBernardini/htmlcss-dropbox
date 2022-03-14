@@ -50,6 +50,20 @@
   
 }
 
+/* Circle */
+
+.circle{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #e0e0e2;
+  border-radius: 50%;
+}
+
+.circle.active{
+  border: 5px solid #005ef6;
+}
+
 /* DEBUG */
 
 .debug{

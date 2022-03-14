@@ -108,8 +108,19 @@ main{
 /* Plans */
 
 .plans{
-  width: 100%;
   margin-bottom: 150px;
+}
+
+.plans .top-text{
+  margin-bottom: 40px;
+}
+
+.plans .top-text span{
+  margin-right: 15px;
+}
+
+.plans .top-text span .circle{
+  vertical-align: middle;
 }
 
 .plan.third{
