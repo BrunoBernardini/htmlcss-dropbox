@@ -262,16 +262,35 @@ main{
 
 /* Sponsors */
 
+.sponsors .top-text{
+  width: 53%;
+  margin-bottom: 50px;
+}
+
+.sponsors .top-text h2{
+  margin-bottom: 30px;
+}
+
+.sponsors .top-text a{
+  display: inline-block;
+  color: #1a71ff;
+  text-decoration: underline;
+}
+
 .sponsors aside{
-  width: 30%;
+  width: 32vw;
+  height: 32vw;
 }
 
 .sponsors aside .sponsor{
   width: 50%;
+  height: 16vw;
 }
 
 .sponsors .text{
-  width: 40%;
+  width: calc(100% - 64vw);
+  height: 32vw;
+  overflow-y: scroll;
 }
 
 /* Company */
