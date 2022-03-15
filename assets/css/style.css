@@ -278,20 +278,33 @@ main{
 }
 
 .sponsors aside{
-  width: 32vw;
-  height: 32vw;
+  width: 28vw;
+  height: 28vw;
 }
 
 .sponsors aside .sponsor{
+  position: relative;
   width: 50%;
-  height: 16vw;
+  height: 14vw;
 }
 
 .sponsors .text{
-  width: calc(100% - 64vw);
-  height: 32vw;
+  width: calc(100% - 56vw);
+  height: 28vw;
   overflow-y: scroll;
 }
+
+.sponsor svg{
+  position: absolute;
+  display: block;
+  width: 60%;
+  fill: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
 
 /* Company */
 
