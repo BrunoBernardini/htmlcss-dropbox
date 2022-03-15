@@ -366,7 +366,26 @@ main{
 /* FAQs */
 
 .faqs{
-  padding: 140px 0;
+  padding: 123px 0;
+}
+
+.faqs .container{
+  border-bottom: 1px solid lightgray;
+}
+
+.faqs .title{
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.faqs ul li{
+  font-weight: 700;
+  border-top: 1px solid lightgray;
+  height: 82px;
+  padding: 35px 42px 47px 0;
+  vertical-align: middle;
+  margin-bottom: 10px;
 }
 
 /* Footer */
