@@ -380,12 +380,30 @@ main{
 }
 
 .faqs ul li{
-  font-weight: 700;
   border-top: 1px solid lightgray;
-  height: 82px;
-  padding: 35px 42px 47px 0;
-  vertical-align: middle;
-  margin-bottom: 10px;
+  padding: 35px 42px 35px 0;
+}
+
+.faqs ul li .text-box{
+  width: 89%;
+}
+
+.faqs ul li .text-box .question{
+  font-weight: 700;
+}
+
+.faqs ul li .text-box p{
+  color: slategray;
+  margin-top: 20px;
+  display: none;
+}
+
+.faqs ul li:hover .text-box p{
+  display: block;
+}
+
+.faqs ul li:hover i{
+  rotate: 180deg;
 }
 
 /* Footer */
