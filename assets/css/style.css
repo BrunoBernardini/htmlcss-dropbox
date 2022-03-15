@@ -5,7 +5,7 @@ header{
   line-height: 80px;
 }
 
-.logo img{
+header .logo img{
   margin: 26px 20px 0 20px;
 }
 
@@ -189,14 +189,6 @@ main{
   text-decoration: underline;
 }
 
-.plan.third-column hr{
-  width: 50px;
-  border: none;
-  height: 1px;
-  background-color: lightgray;
-  margin-bottom: 40px;
-}
-
 .plan .mid-title{
   font-weight: 700;
   font-size: 16px;
@@ -292,19 +284,64 @@ main{
   width: calc(100% - 56vw);
   height: 28vw;
   overflow-y: scroll;
+  background-color: #f5f5f5;
+  padding: 80px 130px;
 }
 
-.sponsor svg{
+.sponsors .text .logo{
+  width: calc(15vw / 2);
+  margin-bottom: 30px;
+}
+
+.sponsors .text hr, .sponsors .text p:first-of-type{
+  margin-bottom: 50px;
+}
+
+.sponsors aside .sponsor img{
   position: absolute;
   display: block;
-  width: 60%;
-  fill: white;
+  width: 55%;
+  filter: invert();
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+.white-border{
+  border: 10px solid rgba(255, 255, 255, .5)
+}
 
+#green-bg{
+  background-color: #9ecd97;
+}
+
+#bordeaux-bg{
+  background-color: #61082c;
+}
+
+#dodgerblue-bg{
+  background-color: #1c8cc4;
+}
+
+#red-bg{
+  background-color: #f91c1d;
+}
+
+#darkred-bg{
+  background-color: #d5021f;
+}
+
+#lightblue-bg{
+  background-color: #b4d0e7;
+}
+
+#blue-bg{
+  background-color: #0d2481;
+}
+
+#yellow-bg{
+  background-color: #fed830;
+}
 
 /* Company */
 
