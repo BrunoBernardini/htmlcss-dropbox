@@ -416,7 +416,27 @@ footer .lists .list-column{
   text-decoration: underline;
 }
 
-hr.bottom{
+footer hr.bottom{
   background-color: white;
   width: 110px;
+  margin-bottom: 47px;
+}
+
+footer .language{
+  font-size: 13px;
+  padding-bottom: 45px;
+  color: #5e5e5e;
+}
+
+footer .language > i{
+  font-size: 15px;
+  color: #a2a2a2;
+}
+
+footer .language span{
+  cursor: pointer;
+}
+
+footer .language span i{
+  font-size: 11px;
 }
