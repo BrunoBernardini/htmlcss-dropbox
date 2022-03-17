@@ -13,21 +13,22 @@ nav ul li{
   position: relative;
   display: inline-block;
   margin: 0 20px;
+  line-height: 76px;
 }
 
 nav ul li > a{
   color: #323232;
-  line-height: 76px;
   display: inline-block;
 }
 
-nav ul li > a:hover{
+nav ul li:hover{
   border-bottom: 2px solid #323232;
 }
 
 .dropdown-menu{
   display: none;
   position: absolute;
+  top: 78px;
   left: -30px;
   font-size: 14px;
   line-height: 40px;
